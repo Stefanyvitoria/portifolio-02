@@ -1,10 +1,12 @@
 import './App.css';
-import NavHeader from './components/navheader/NavHeader.js';
+import NavHeader from './components/includes/navheader/NavHeader.js';
+import Home from './components/sections/home/home.js';
 
 function App() {
   return (
     <div className="App">
       <NavHeader />
+      <Home />
     </div>
   );
 }
