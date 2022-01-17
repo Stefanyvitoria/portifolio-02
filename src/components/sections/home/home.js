@@ -1,5 +1,5 @@
 import './home.css'
-import foto from '../../../assets/eu.png'
+import foto from '../../../assets/img/eu.png'
 
 export default function Home() {
     return (
