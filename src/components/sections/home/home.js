@@ -1,3 +1,9 @@
+/**
+ * @author Stefany izidio
+ * @contact izidiostefany@gmail.com
+ * @date 29/01/2022
+ */
+
 import Styles from './home.module.css'
 import foto from '../../../assets/img/eu.png'
 import React from 'react'
@@ -15,7 +21,7 @@ export default class Home extends React.Component {
                         <div className={Styles.resume}>
 
                             <p className={Styles.title}>Stefany Izidio</p>
-                            <p className={Styles.subtitle}>Estagiária de Desenvolvimento Web</p>
+                            <p className={Styles.subtitle}>Estagiária de Desenvolvimento FullStack</p>
                             
                             <div className={Styles.info}>
                                 <div className={Styles.info_col_1}>

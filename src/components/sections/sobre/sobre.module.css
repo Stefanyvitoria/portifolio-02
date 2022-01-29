@@ -1,0 +1,30 @@
+.sobre{
+    margin-top: 1.5rem;
+    width: 85%;
+    max-width: 87.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+}
+
+.title{
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.text{
+    font-size: 1em;
+}
+
+@media (max-width: 767px) {
+    .sobre{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 450px) {
+    .sobre{
+        font-size: 12px;
+    }
+}

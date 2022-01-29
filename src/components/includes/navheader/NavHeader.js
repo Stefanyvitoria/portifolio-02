@@ -1,3 +1,9 @@
+/**
+ * @author Stefany izidio
+ * @contact izidiostefany@gmail.com
+ * @date 29/01/2022
+ */
+
 import Styles from './NavHeader.module.css'
 import React from 'react';
 import { HiMenu } from "react-icons/hi";

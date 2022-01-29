@@ -1,5 +1,7 @@
 {
   "name": "portifolio",
+  "homepage": "https://stefanyizidio.xyz/port2/",
+  "author": "iziziostefany@gmail.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

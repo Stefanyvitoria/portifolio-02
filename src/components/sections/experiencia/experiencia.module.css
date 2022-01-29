@@ -1,0 +1,39 @@
+.experiencia{
+    margin-top: 1.5rem;
+    width: 85%;
+    max-width: 87.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+    text-indent: 1rem;
+}
+
+.title{
+    font-size: 1.3em;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: gray;
+}
+
+
+.experiencias > li{
+    margin-bottom: 2rem;
+}
+
+.ex_title{
+    margin-bottom: 0.7rem;
+    font-size: 1.05em;
+    font-weight: 600;
+}
+
+@media (max-width: 767px) {
+    .experiencia{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 450px) {
+    .experiencia{
+        font-size: 12px;
+    }
+}

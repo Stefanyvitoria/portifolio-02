@@ -9,7 +9,7 @@
     background: #63B9C9;
 }
 
-.bg_hover{
+.bg_hover:hover{
     background-color: #63bac960;
 }
 

@@ -1,0 +1,47 @@
+.ola{
+    margin-top: 4.375rem; /* espaço da foto + margin*/
+    width: 85%;
+    max-width: 87.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+}
+
+.title{
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.text{
+    font-size: 1em;
+}
+
+.c_button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 1em;
+}
+
+.button{
+    text-decoration: none;
+    padding: 1rem 2rem;
+    color: black;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+@media (max-width: 767px) {
+    .ola{
+        font-size: 14px;
+        margin-top: 1.875rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .ola{
+        font-size: 12px;
+    }
+}
