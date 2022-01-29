@@ -1,0 +1,147 @@
+/* ***********************
+* general css 
+**************************/
+.home {
+    width: 100%;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body{
+    width: 85%;
+    max-width: 87.5rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 15.625rem;
+}
+
+.picture{
+    width: auto;
+    height: calc(100% + 3.125rem);
+    margin-right: 1.25rem;
+}
+
+.resume{
+    margin-left: 1.25rem;
+    height: 100%;
+    width: max-content;
+    font-size: medium;
+}
+
+.title{
+    font-weight: 900;
+    margin: 0;
+    font-size: 1.8em;
+    height: 15%;
+}
+
+.subtitle{
+    margin: 0;
+    height: 10%;
+    font-size: medium;
+    font-size: 1em
+}
+
+.info{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60%;
+    font-size: medium;
+    font-size: 1em;
+}
+
+.info_col_1{
+    font-weight: 900;
+    margin-right: 3.25rem;
+    color: rgb(58, 58, 58);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info_col_1 > p, .info_col_2> p{
+    margin: 0;
+}
+
+.info_col_2{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+}
+
+.redes_icons{
+    margin-right: 1.25rem;
+    max-width: 1.875rem;
+}
+
+/* ***********************
+* CSS to devices <= 767px 
+**************************/
+@media (max-width: 767px) {
+    .picture{
+        display: none;
+    }
+
+    .resume{
+        font-size: 14px;
+    }
+
+    .body{
+        height: 13.75rem;
+    }
+}
+
+
+/* ***********************
+* CSS to devices <= 450px 
+**************************/
+@media (max-width: 450px) {
+    .resume{
+        font-size: 12px;
+    }
+}
+
+/* ***********************
+* CSS to devices < 380px 
+**************************/
+@media (max-width: 380px) { 
+    .info{
+        display: none;
+    } 
+
+    .body{
+        justify-content: start;
+        height: max-content;
+    }
+
+    .resume{
+        margin: 0;
+    }
+
+    .home{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .redes{
+        margin-top: 0.5rem;
+        max-height: 1.3rem;
+    }
+
+    .title, .subtitle, .redes{
+        height: max-content;
+    }
+}

@@ -3,7 +3,6 @@
 **************************/
 
 .navheader{
-    background: #63B9C9;
     height: max-content;
     width: 100vw;
     position: fixed;
@@ -64,16 +63,16 @@
     
     .menu_icon{
         font-size: 18pt;
-        color: white;
+        color: black;
         padding: 0 6px;
         background-color: transparent;
         border-radius: 5px;
-        border: 1px rgba(255, 255, 255, 0.555) solid;
+        border: 1px black solid;
     }
     
     .menu_icon:hover{
         opacity: 0.7;
-        background-color: rgba(255, 255, 255, 0.20);
+        background-color: rgba(17, 17, 17, 0.219);
     }
 
     .text{
@@ -82,6 +81,5 @@
 
     .text:hover{
         cursor: pointer;
-        background-color: #63bac960;
     }
 }

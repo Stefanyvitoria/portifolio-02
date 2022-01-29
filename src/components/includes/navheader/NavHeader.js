@@ -1,7 +1,7 @@
 import Styles from './NavHeader.module.css'
 import React from 'react';
 import { HiMenu } from "react-icons/hi";
-import logo from '../../../assets/img/logos/logo-small-white.png'
+import logo from '../../../assets/img/logos/logo-small-black.png'
 
 export default function NavHeader() {
 
@@ -12,7 +12,7 @@ export default function NavHeader() {
     window.onresize = (e) => setWidth(width = window.innerWidth > 0? window.innerWidth : window.screen.width);
     
     return(
-    <nav className={Styles.navheader}>
+    <nav className={Styles.navheader + ' bg_color_main'}>
         <div className='container'>
             {(width > 450)
             ?<div className={Styles.navheader_menus}>
@@ -29,11 +29,11 @@ export default function NavHeader() {
                         <HiMenu />
                     </button>
                     <ul className="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
-                        <li><p className={Styles.text}>Olá</p></li>
-                        <li><p className={Styles.text}>Sobre mim</p></li>
-                        <li><p className={Styles.text}>Projetos</p></li>
-                        <li><p className={Styles.text}>Skills</p></li>
-                        <li><p className={Styles.text}>Contato</p></li>    
+                        <li><p className={Styles.text + ' bg_hover'}>Olá</p></li>
+                        <li><p className={Styles.text + ' bg_hover'}>Sobre mim</p></li>
+                        <li><p className={Styles.text + ' bg_hover'}>Projetos</p></li>
+                        <li><p className={Styles.text + ' bg_hover'}>Skills</p></li>
+                        <li><p className={Styles.text + ' bg_hover'}>Contato</p></li>    
                     </ul>
                 </div>
             </div>}
